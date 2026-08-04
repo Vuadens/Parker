@@ -29,6 +29,10 @@ export const metadata: Metadata = {
   description:
     'Parker is a three-tier media downloader: a React client, a Node/Express REST API, and a Python (yt-dlp) worker backed by MySQL. A portfolio project by Joaquín Maza.',
   generator: 'v0.app',
+  icons: {
+    icon: '/parker-logo.svg',
+    shortcut: '/parker-logo.svg',
+  },
 }
 
 export const viewport: Viewport = {
